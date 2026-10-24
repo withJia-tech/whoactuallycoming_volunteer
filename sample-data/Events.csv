@@ -1,0 +1,4 @@
+event_id,name,date,start_time,venue,status,onepa_verified,onepa_ref
+E1,Test Lantern Craft Day,2026-12-05,09:00,Test RC Hall,Published,TRUE,TEST-REF-1
+E2,Test Open Mic Night,2026-12-12,18:00,Test CC Courtyard,Published,FALSE,
+E3,Test Batik Workshop,2026-12-19,10:00,Test CC Room 2,Draft,FALSE,

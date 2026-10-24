@@ -1,0 +1,8 @@
+{
+  "name": "whoactuallycoming-volunteer",
+  "private": true,
+  "description": "Tests for the Google Apps Script draft workflow",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  }
+}

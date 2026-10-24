@@ -8,7 +8,7 @@ Volunteer management for Keat Hong arts & culture events.
 
 ## Status
 
-Planning. Nothing is built yet. The plan tests one rule on two real events before anything gets built:
+Planning, plus a test version of the draft workflow that runs on made-up data only (see below). No real volunteer gets a message until the plan's gate passes. The plan tests one rule on two real events:
 
 > Send one private message 48 hours before, naming the volunteer's role and time. They reply 1 to confirm or 2 if they can't come.
 
@@ -27,6 +27,15 @@ Google Form → Google Sheet → Zapier → WhatsApp alert **to the organiser** 
 
 - Messages go out from the organiser's own WhatsApp, using pre-written links (`wa.me`) built in the sheet. This keeps them personal, needs no WhatsApp Business account, and gets no third-party bulk sender involved.
 - Any AI step (matching interests to roles, drafting messages in English, 中文 and Melayu, reading replies) works with any model provider, not just one. A person approves every message before it is sent.
+
+## Draft workflow (test version)
+
+A Google Apps Script that runs inside the Sheet every night at 8 pm. For events that are Published and checked against onePA, it drafts invitations (regulars first, then newcomers) and the T−2 confirmations, each with a WhatsApp link the organiser taps to send. It never sends anything itself.
+
+- `apps-script/`: the script (`Code.gs`), the rules (`Logic.gs`), the AI prompt (`Prompt.gs`) and the provider switch (`Model.gs`)
+- `sample-data/`: made-up tabs to import into a test Sheet
+- `docs/setup.md`: how to set it up
+- `test/`: run `npm test` (Node 18+)
 
 ## Data rules
 
