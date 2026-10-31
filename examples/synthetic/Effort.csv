@@ -1,0 +1,7 @@
+entry_id,event_id,organiser,activity,minutes
+E1-TIME-0,E1,primary,chasing,40
+E1-TIME-1,E1,primary,reply_logging,15
+E1-TIME-2,E1,primary,reconciliation,10
+E2-TIME-0,E2,second,chasing,40
+E2-TIME-1,E2,second,reply_logging,15
+E2-TIME-2,E2,second,reconciliation,10
