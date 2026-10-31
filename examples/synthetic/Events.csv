@@ -1,0 +1,3 @@
+event_id,lane,event_date,send_date,deadline_date,deadline_time,intended_count,roster_frozen,records_complete,effort_complete,baseline_yes,baseline_attended,baseline_chased,baseline_minutes,operator,independent,no_parallel_list
+E1,onePA,2026-12-10,2026-12-08,2026-12-09,19:00,60,yes,yes,yes,60,42,30,120,primary,yes,yes
+E2,ground,2026-12-17,2026-12-15,2026-12-16,19:00,60,yes,yes,yes,60,42,30,120,second,yes,yes

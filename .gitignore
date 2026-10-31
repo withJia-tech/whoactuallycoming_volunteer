@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+private/
+local-results/
+node_modules/
+.DS_Store
+examples/scenarios.json

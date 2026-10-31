@@ -1,0 +1,87 @@
+{
+  "scenarios": [
+    {
+      "scenario": "all_pass",
+      "gate": "PASS",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "dropped_messages",
+      "gate": "FAIL",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "conflicting_reply",
+      "gate": "BLOCKED",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "silent_attendees",
+      "gate": "FAIL",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "duplicate_unresolved",
+      "gate": "BLOCKED",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "duplicate_resolved",
+      "gate": "PASS",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "subgroup_disparity",
+      "gate": "FAIL",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "small_subgroup",
+      "gate": "INCONCLUSIVE",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "zero_confirmations",
+      "gate": "INCONCLUSIVE",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "missing_attendance",
+      "gate": "BLOCKED",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "chasing_exceeds_half",
+      "gate": "FAIL",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "reply_rate_below_70",
+      "gate": "FAIL",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "confirmed_showup_below_80",
+      "gate": "FAIL",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "handover_needed_help",
+      "gate": "FAIL",
+      "checks": "T0–T7 match independent Python scorer"
+    },
+    {
+      "scenario": "pending_approvals",
+      "gate": "BLOCKED",
+      "checks": "T0–T7 match independent Python scorer"
+    }
+  ],
+  "detailParity": "Subgroup counts, gaps and statuses; role confirmations, attendance and shortfalls",
+  "boundaries": [
+    "missing attendance blocks",
+    "zero baseline inconclusive",
+    "last supported row 201 scores",
+    "row 202 overflow blocks",
+    "blank template blocked"
+  ]
+}

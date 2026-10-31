@@ -1,0 +1,18 @@
+name: Pilot measurement checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -v
+      - run: python -m pilot.score examples/synthetic > /tmp/synthetic-pilot-results.json
+      - name: Regenerated fixtures must match committed evidence
+        run: |
+          python -m scripts.generate_examples
+          git diff --exit-code -- examples/synthetic examples/scenario-results.json templates/csv

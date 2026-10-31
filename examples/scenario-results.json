@@ -1,0 +1,5768 @@
+{
+  "all_pass": {
+    "protocol_version": "1.2-proposed",
+    "gate": "PASS",
+    "observed_outcome": "PASS",
+    "errors": [],
+    "T5": {
+      "status": "PASS",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "dropped_messages": {
+    "protocol_version": "1.2-proposed",
+    "gate": "FAIL",
+    "observed_outcome": "FAIL",
+    "errors": [],
+    "T5": {
+      "status": "BLOCKED",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "FAIL",
+            "numerator": 18,
+            "denominator": 20,
+            "value": 0.9,
+            "reason": ""
+          },
+          "T1": {
+            "status": "BLOCKED",
+            "numerator": 18,
+            "denominator": 18,
+            "value": 1.0,
+            "reason": "T0 did not pass; diagnostic counts only"
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "BLOCKED",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": "T0 did not pass; diagnostic counts only"
+          },
+          "T4": {
+            "status": "BLOCKED",
+            "numerator": 18,
+            "denominator": 18,
+            "value": 1.0,
+            "reason": "T0 did not pass; diagnostic counts only"
+          },
+          "T6": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "T0 did not pass; diagnostic counts only"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 9,
+            "denominator": 9,
+            "complement_numerator": 9,
+            "complement_denominator": 9,
+            "gap_pp": 0.0,
+            "status": "BLOCKED"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 9,
+            "denominator": 9,
+            "complement_numerator": 9,
+            "complement_denominator": 9,
+            "gap_pp": 0.0,
+            "status": "BLOCKED"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 9,
+            "denominator": 9,
+            "complement_numerator": 9,
+            "complement_denominator": 9,
+            "gap_pp": 0.0,
+            "status": "BLOCKED"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 9,
+            "denominator": 9,
+            "complement_numerator": 9,
+            "complement_denominator": 9,
+            "gap_pp": 0.0,
+            "status": "BLOCKED"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 6,
+            "denominator": 6,
+            "complement_numerator": 12,
+            "complement_denominator": 12,
+            "gap_pp": 0.0,
+            "status": "BLOCKED"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 6,
+            "denominator": 6,
+            "complement_numerator": 12,
+            "complement_denominator": 12,
+            "gap_pp": 0.0,
+            "status": "BLOCKED"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 6,
+            "denominator": 6,
+            "complement_numerator": 12,
+            "complement_denominator": 12,
+            "gap_pp": 0.0,
+            "status": "BLOCKED"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 6,
+            "denominator": 6,
+            "complement_numerator": 12,
+            "complement_denominator": 12,
+            "gap_pp": 0.0,
+            "status": "BLOCKED"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 6,
+            "denominator": 6,
+            "complement_numerator": 12,
+            "complement_denominator": 12,
+            "gap_pp": 0.0,
+            "status": "BLOCKED"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 6,
+            "denominator": 6,
+            "complement_numerator": 12,
+            "complement_denominator": 12,
+            "gap_pp": 0.0,
+            "status": "BLOCKED"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 18,
+            "shortfall": 12,
+            "attended": 18,
+            "actual_shortfall": 12
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 0,
+            "shortfall": 30,
+            "attended": 0,
+            "actual_shortfall": 30
+          }
+        ],
+        "counts": {
+          "intended": 20,
+          "successful_sends": 18,
+          "confirmed": 18,
+          "attended_confirmed": 18,
+          "attended_original": 18,
+          "silent_came": 0,
+          "replied": 18,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "conflicting_reply": {
+    "protocol_version": "1.2-proposed",
+    "gate": "BLOCKED",
+    "observed_outcome": "BLOCKED",
+    "errors": [],
+    "T5": {
+      "status": "BLOCKED",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [
+          "Roster row 2: reply evidence unresolved"
+        ],
+        "tests": {
+          "T0": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T1": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T2": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T3": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T4": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T6": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T7": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          }
+        },
+        "subgroups": [],
+        "roles": []
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "silent_attendees": {
+    "protocol_version": "1.2-proposed",
+    "gate": "FAIL",
+    "observed_outcome": "FAIL",
+    "errors": [],
+    "T5": {
+      "status": "FAIL",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 58,
+            "denominator": 58,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "FAIL",
+            "numerator": 2,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 58,
+            "denominator": 60,
+            "value": 0.9666666666666667,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 29,
+            "denominator": 29,
+            "complement_numerator": 29,
+            "complement_denominator": 29,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 29,
+            "denominator": 30,
+            "complement_numerator": 29,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 29,
+            "denominator": 29,
+            "complement_numerator": 29,
+            "complement_denominator": 29,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 29,
+            "denominator": 30,
+            "complement_numerator": 29,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 19,
+            "denominator": 19,
+            "complement_numerator": 39,
+            "complement_denominator": 39,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 19,
+            "denominator": 20,
+            "complement_numerator": 39,
+            "complement_denominator": 40,
+            "gap_pp": 2.5,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 19,
+            "denominator": 19,
+            "complement_numerator": 39,
+            "complement_denominator": 39,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 19,
+            "denominator": 20,
+            "complement_numerator": 39,
+            "complement_denominator": 40,
+            "gap_pp": 2.5,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 38,
+            "complement_denominator": 38,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 38,
+            "complement_denominator": 40,
+            "gap_pp": -5.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 28,
+            "shortfall": 2,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 58,
+          "attended_confirmed": 58,
+          "attended_original": 60,
+          "silent_came": 2,
+          "replied": 58,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "duplicate_unresolved": {
+    "protocol_version": "1.2-proposed",
+    "gate": "BLOCKED",
+    "observed_outcome": "BLOCKED",
+    "errors": [],
+    "T5": {
+      "status": "BLOCKED",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [
+          "Duplicate active contact: resolve primary assignment before scoring",
+          "Frozen intended_count does not reconcile to included roster"
+        ],
+        "tests": {
+          "T0": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T1": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T2": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T3": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T4": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T6": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T7": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          }
+        },
+        "subgroups": [],
+        "roles": []
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "duplicate_resolved": {
+    "protocol_version": "1.2-proposed",
+    "gate": "PASS",
+    "observed_outcome": "PASS",
+    "errors": [],
+    "T5": {
+      "status": "PASS",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 1,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "subgroup_disparity": {
+    "protocol_version": "1.2-proposed",
+    "gate": "FAIL",
+    "observed_outcome": "FAIL",
+    "errors": [],
+    "T5": {
+      "status": "PASS",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 56,
+            "denominator": 60,
+            "value": 0.9333333333333333,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "FAIL",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 28,
+            "denominator": 30,
+            "complement_numerator": 28,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 28,
+            "denominator": 30,
+            "complement_numerator": 28,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 36,
+            "complement_denominator": 40,
+            "gap_pp": -10.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 36,
+            "complement_denominator": 40,
+            "gap_pp": -10.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 16,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 20.0,
+            "status": "FAIL"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 26,
+            "actual_shortfall": 4
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 56,
+          "attended_original": 56,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "small_subgroup": {
+    "protocol_version": "1.2-proposed",
+    "gate": "INCONCLUSIVE",
+    "observed_outcome": "INCONCLUSIVE",
+    "errors": [],
+    "T5": {
+      "status": "PASS",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "INCONCLUSIVE",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 39,
+            "denominator": 39,
+            "complement_numerator": 21,
+            "complement_denominator": 21,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 39,
+            "denominator": 39,
+            "complement_numerator": 21,
+            "complement_denominator": 21,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 1,
+            "denominator": 1,
+            "complement_numerator": 59,
+            "complement_denominator": 59,
+            "gap_pp": 0.0,
+            "status": "INCONCLUSIVE"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 1,
+            "denominator": 1,
+            "complement_numerator": 59,
+            "complement_denominator": 59,
+            "gap_pp": 0.0,
+            "status": "INCONCLUSIVE"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "zero_confirmations": {
+    "protocol_version": "1.2-proposed",
+    "gate": "INCONCLUSIVE",
+    "observed_outcome": "INCONCLUSIVE",
+    "errors": [],
+    "T5": {
+      "status": "INCONCLUSIVE",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "INCONCLUSIVE",
+            "numerator": 0,
+            "denominator": 0,
+            "value": null,
+            "reason": "Zero denominator"
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "INCONCLUSIVE",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 0,
+            "denominator": 0,
+            "complement_numerator": 0,
+            "complement_denominator": 0,
+            "gap_pp": null,
+            "status": "INCONCLUSIVE"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 0,
+            "denominator": 0,
+            "complement_numerator": 0,
+            "complement_denominator": 0,
+            "gap_pp": null,
+            "status": "INCONCLUSIVE"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 0,
+            "denominator": 0,
+            "complement_numerator": 0,
+            "complement_denominator": 0,
+            "gap_pp": null,
+            "status": "INCONCLUSIVE"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 0,
+            "denominator": 0,
+            "complement_numerator": 0,
+            "complement_denominator": 0,
+            "gap_pp": null,
+            "status": "INCONCLUSIVE"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 0,
+            "denominator": 0,
+            "complement_numerator": 0,
+            "complement_denominator": 0,
+            "gap_pp": null,
+            "status": "INCONCLUSIVE"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 0,
+            "shortfall": 30,
+            "attended": 0,
+            "actual_shortfall": 30
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 0,
+            "shortfall": 30,
+            "attended": 0,
+            "actual_shortfall": 30
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 0,
+          "attended_confirmed": 0,
+          "attended_original": 0,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "missing_attendance": {
+    "protocol_version": "1.2-proposed",
+    "gate": "BLOCKED",
+    "observed_outcome": "BLOCKED",
+    "errors": [],
+    "T5": {
+      "status": "BLOCKED",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [
+          "Roster row 2: missing/invalid attended"
+        ],
+        "tests": {
+          "T0": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T1": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T2": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T3": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T4": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T6": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          },
+          "T7": {
+            "status": "BLOCKED",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Resolve data errors"
+          }
+        },
+        "subgroups": [],
+        "roles": []
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "chasing_exceeds_half": {
+    "protocol_version": "1.2-proposed",
+    "gate": "FAIL",
+    "observed_outcome": "FAIL",
+    "errors": [],
+    "T5": {
+      "status": "FAIL",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "FAIL",
+            "numerator": 61.0,
+            "denominator": 120.0,
+            "value": 0.5083333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 61.0,
+          "total_minutes": 86.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "reply_rate_below_70": {
+    "protocol_version": "1.2-proposed",
+    "gate": "FAIL",
+    "observed_outcome": "FAIL",
+    "errors": [],
+    "T5": {
+      "status": "FAIL",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 41,
+            "denominator": 41,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "FAIL",
+            "numerator": 41,
+            "denominator": 60,
+            "value": 0.6833333333333333,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 21,
+            "complement_denominator": 21,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 30,
+            "complement_numerator": 21,
+            "complement_denominator": 30,
+            "gap_pp": 3.3333333333333335,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 21,
+            "denominator": 21,
+            "complement_numerator": 20,
+            "complement_denominator": 20,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 21,
+            "denominator": 30,
+            "complement_numerator": 20,
+            "complement_denominator": 30,
+            "gap_pp": -3.3333333333333335,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 13,
+            "denominator": 13,
+            "complement_numerator": 28,
+            "complement_denominator": 28,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 13,
+            "denominator": 20,
+            "complement_numerator": 28,
+            "complement_denominator": 40,
+            "gap_pp": 5.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 14,
+            "denominator": 14,
+            "complement_numerator": 27,
+            "complement_denominator": 27,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 14,
+            "denominator": 20,
+            "complement_numerator": 27,
+            "complement_denominator": 40,
+            "gap_pp": -2.5,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 14,
+            "denominator": 14,
+            "complement_numerator": 27,
+            "complement_denominator": 27,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 14,
+            "denominator": 20,
+            "complement_numerator": 27,
+            "complement_denominator": 40,
+            "gap_pp": -2.5,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 11,
+            "shortfall": 19,
+            "attended": 11,
+            "actual_shortfall": 19
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 41,
+          "attended_confirmed": 41,
+          "attended_original": 41,
+          "silent_came": 0,
+          "replied": 41,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "confirmed_showup_below_80": {
+    "protocol_version": "1.2-proposed",
+    "gate": "FAIL",
+    "observed_outcome": "FAIL",
+    "errors": [],
+    "T5": {
+      "status": "FAIL",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "FAIL",
+            "numerator": 47,
+            "denominator": 60,
+            "value": 0.7833333333333333,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 23,
+            "denominator": 30,
+            "complement_numerator": 24,
+            "complement_denominator": 30,
+            "gap_pp": 3.3333333333333335,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 24,
+            "denominator": 30,
+            "complement_numerator": 23,
+            "complement_denominator": 30,
+            "gap_pp": -3.3333333333333335,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 15,
+            "denominator": 20,
+            "complement_numerator": 32,
+            "complement_denominator": 40,
+            "gap_pp": 5.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 16,
+            "denominator": 20,
+            "complement_numerator": 31,
+            "complement_denominator": 40,
+            "gap_pp": -2.5,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 16,
+            "denominator": 20,
+            "complement_numerator": 31,
+            "complement_denominator": 40,
+            "gap_pp": -2.5,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 17,
+            "actual_shortfall": 13
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 47,
+          "attended_original": 47,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "handover_needed_help": {
+    "protocol_version": "1.2-proposed",
+    "gate": "FAIL",
+    "observed_outcome": "FAIL",
+    "errors": [],
+    "T5": {
+      "status": "PASS",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "FAIL",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  },
+  "pending_approvals": {
+    "protocol_version": "1.2-proposed",
+    "gate": "BLOCKED",
+    "observed_outcome": "PASS",
+    "errors": [
+      "Human approvals are pending or incomplete"
+    ],
+    "T5": {
+      "status": "PASS",
+      "numerator": null,
+      "denominator": null,
+      "value": null,
+      "reason": "Both lanes; never pool the events"
+    },
+    "events": [
+      {
+        "event_id": "E1",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      },
+      {
+        "event_id": "E2",
+        "errors": [],
+        "tests": {
+          "T0": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T1": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T2": {
+            "status": "PASS",
+            "numerator": 40.0,
+            "denominator": 120.0,
+            "value": 0.3333333333333333,
+            "reason": ""
+          },
+          "T3": {
+            "status": "PASS",
+            "numerator": 0,
+            "denominator": null,
+            "value": null,
+            "reason": ""
+          },
+          "T4": {
+            "status": "PASS",
+            "numerator": 60,
+            "denominator": 60,
+            "value": 1.0,
+            "reason": ""
+          },
+          "T6": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Group versus its complement; see counts"
+          },
+          "T7": {
+            "status": "PASS",
+            "numerator": null,
+            "denominator": null,
+            "value": null,
+            "reason": "Ground event requires second organiser; both events require independent operation and one list"
+          }
+        },
+        "subgroups": [
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "regular",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T1",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "experience",
+            "group": "first",
+            "metric": "T4",
+            "numerator": 30,
+            "denominator": 30,
+            "complement_numerator": 30,
+            "complement_denominator": 30,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "EN",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "ZH",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T1",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          },
+          {
+            "dimension": "language",
+            "group": "MS",
+            "metric": "T4",
+            "numerator": 20,
+            "denominator": 20,
+            "complement_numerator": 40,
+            "complement_denominator": 40,
+            "gap_pp": 0.0,
+            "status": "PASS"
+          }
+        ],
+        "roles": [
+          {
+            "slot_id": "SETUP",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          },
+          {
+            "slot_id": "PACK",
+            "required": 30,
+            "confirmed": 30,
+            "shortfall": 0,
+            "attended": 30,
+            "actual_shortfall": 0
+          }
+        ],
+        "counts": {
+          "intended": 60,
+          "successful_sends": 60,
+          "confirmed": 60,
+          "attended_confirmed": 60,
+          "attended_original": 60,
+          "silent_came": 0,
+          "replied": 60,
+          "chasing_minutes": 40.0,
+          "total_minutes": 65.0,
+          "duplicates_excluded": 0,
+          "late_replacements": 0
+        }
+      }
+    ],
+    "interpretation": "Synthetic results do not establish real-world pilot success. A pass permits review of one next change, never automatic software approval."
+  }
+}

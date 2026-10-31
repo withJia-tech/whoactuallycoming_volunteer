@@ -1,0 +1,14 @@
+setting,value
+t0_min,1
+t1_min,0.8
+t2_max_ratio,0.5
+t3_max,1
+t4_min,0.7
+t6_max_gap,0.15
+subgroup_min,10
+languages,EN|ZH|MS
+thresholds_approved,pending
+operations_approved,pending
+approved_by,
+approved_on,
+protocol_version,1.2-proposed

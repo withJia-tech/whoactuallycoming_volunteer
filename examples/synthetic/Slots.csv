@@ -1,0 +1,5 @@
+event_id,slot_id,role,start_time,required,confirmed,shortfall,attended,actual_shortfall
+E1,SETUP,Setup,09:00,30,,,,
+E1,PACK,Packing,12:00,30,,,,
+E2,SETUP,Setup,09:00,30,,,,
+E2,PACK,Packing,12:00,30,,,,
